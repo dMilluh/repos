@@ -7,9 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		app.js = app.js
 		index.php = index.php
+		Style.css = Style.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Includes", "Includes", "{BC967681-A2B6-48F2-A34C-F181942B9FF9}"
+	ProjectSection(SolutionItems) = preProject
+		Portfolio\Includes\footer.php = Portfolio\Includes\footer.php
+		Portfolio\Includes\header.php = Portfolio\Includes\header.php
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partials", "Partials", "{D680E9F1-7534-4664-8BE9-73510EF7AF4D}"
+	ProjectSection(SolutionItems) = preProject
+		Portfolio\Partials\contact.php = Portfolio\Partials\contact.php
+		Portfolio\Partials\home.html = Portfolio\Partials\home.html
+		Portfolio\Partials\mail.php = Portfolio\Partials\mail.php
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -17,6 +29,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BC967681-A2B6-48F2-A34C-F181942B9FF9} = {655AB778-64C8-4C6F-AC56-8441BFB417A0}
+		{D680E9F1-7534-4664-8BE9-73510EF7AF4D} = {655AB778-64C8-4C6F-AC56-8441BFB417A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BEE1E7D-F702-4D6F-A07F-368EE6070AAC}
